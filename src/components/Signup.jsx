@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/SignUp.css';
 import logo from '../logo.svg'
 import Ring from '../ring.png'
+import { Link } from 'react-router-dom';
+
 
 export default function Signup() {
   return (
@@ -90,7 +92,9 @@ export default function Signup() {
                         width:'100%',
                     }} >
 
-                        <p style={{ fontWeight:'500',textAlign:'center',width:'100%' }} >Already have an account ? <a href="https://www.google.com">Log in</a></p>
+                        <p style={{ fontWeight:'500',textAlign:'center',width:'100%' }} >Already have an account ? 
+                        <Link to="/login" > Login</Link>
+                        </p>
 
                     </div>
 
