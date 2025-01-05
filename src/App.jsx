@@ -1,4 +1,4 @@
-import RoutingPage from './components/RoutePage';
+import RoutingPage from './routes/RoutePage';
 import MyContextProvider from './contextApi/MyContextProvider';
 
 function App() {

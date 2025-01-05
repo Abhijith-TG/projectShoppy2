@@ -1,6 +1,6 @@
 import React,{useContext,useState,useEffect} from 'react'
-import Header from '../smallComp/Header'
-import Footer from '../smallComp/Footer'
+import Header from '../component/Header'
+import Footer from '../component/Footer'
 import { MyContext } from '../contextApi/MyContextProvider'
 
 

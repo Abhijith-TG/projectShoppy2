@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import Heropage from './Heropage';
-import Signup from './Signup';
-import Login from './Login';
-import HomePage from './HomePage';
+import Heropage from '../pages/Heropage';
+import Signup from '../pages/Signup';
+import Login from '../pages/Login';
+import HomePage from '../pages/HomePage';
 
 export default function RoutePage() {
   return (
