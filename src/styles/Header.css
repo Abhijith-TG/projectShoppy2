@@ -35,7 +35,6 @@
 }
 .pro{
     padding: 10px;
-    height: 250px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 10px;
@@ -44,4 +43,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
