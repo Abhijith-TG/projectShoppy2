@@ -3,9 +3,9 @@ import '../styles/Header.css'
 
 export default function Header() {
   return (
-    <div className='main'>
+    <div className='main shadow-lg mb-2 shadow-black'>
         <div>
-            <h1>Shoppy</h1>
+            <h1  >Shoppy</h1>
         </div>
         <div>
             <nav className='nav' >
