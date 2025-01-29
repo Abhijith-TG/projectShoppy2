@@ -7,7 +7,7 @@ export default function Heropage() {
     <div>
         <h1>Hero Page</h1>
         <p>Welcome to the hero page!</p>
-        <button onClick={()=>navigate('/login')} >Let's Go</button>
+        <button className='bg-blue-500 px-2 py-1 text-white rounded' onClick={()=>navigate('/login')} >Let's Go</button>
     </div>
   )
 }

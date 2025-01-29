@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../logo.svg'
 import Ring from '../ring.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Login() {
 
@@ -15,7 +15,7 @@ export default function Login() {
     //     }
     // ]
 
-
+const navigate = useNavigate();
 
 
   return (
@@ -106,7 +106,7 @@ export default function Login() {
                             alignItems: 'center',
                         }
                     } >
-                    <button className='button2' >Login</button>
+                    <button className='button2' onClick={()=>{navigate('/home')}} >Login</button>
                     </div>
                     <div style={{
                         width:'100%',

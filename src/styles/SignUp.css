@@ -45,6 +45,8 @@ label{
     margin-bottom: 10px;
     border:1px solid #ccc;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
 }
 .button2{
     width: 100%;

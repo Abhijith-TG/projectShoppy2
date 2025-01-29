@@ -4,7 +4,7 @@ export const MyContext = createContext();
 
 
 export default function MyContextProvider({children}) {
-    const api = 'https://dummyjson.com/products';
+    const api = 'http://localhost:5001/api/products';
 
     const [products,setProducts] = useState([]);
 
