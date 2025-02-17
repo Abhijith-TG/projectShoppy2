@@ -11,8 +11,8 @@ export default function HomePage() {
     console.log(productDetails);
     
   }
- 
 
+  
   return (
     <div
       style={{
