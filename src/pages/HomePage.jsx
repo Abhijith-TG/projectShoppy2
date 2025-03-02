@@ -12,7 +12,7 @@ export default function HomePage() {
     
   }
 
-  
+
   return (
     <div
       style={{
@@ -40,6 +40,7 @@ export default function HomePage() {
               width: "550px",
               paddingLeft: "50px",
               color: "#ffa",
+              
             }}
           >
             Find the beauty of shopping, find your perfect matching gloceries
